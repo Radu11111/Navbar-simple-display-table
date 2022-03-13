@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar | CSS display:table-*</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navbar-dt.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="row">
+        <ul class="branding">
+            <li><a href="">Brand</a></li>
+            <li><a href=""> a slogan</a></li>
+            <li><a href=""> [+123]456-789</a></li>
+        </ul><ul class="main">
+            <li><a href="">Products</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Terms & conditions</a></li>
+            <li><a href="">Partners</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul><ul class="client">
+            <li>
+                <a href=""><i class="fa-solid fa-user-tie"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    
+</body>
+</html>
+<!-- HW1: rem vs em-common /diff?
+Common:1)Fac parte din cadrul unităților relative de măsură.
+       2)Sunt unități scalabile.
+Diff:
+    1)em unit:
+    ---Unitatea em permite setarea dimensiunii fontului unui element în raport cu dimensiunea fontului părintelui său.
+     Când dimensiunea elementului părinte se modifică, dimensiunea copilului se schimbă automat.
+    ---Poate duce la un efect de amestecare
+    2)rem unit:
+    ---Unitatea rem: rem se bazează pe valoarea mărimii fontului a elementului rădăcină, care este elementul html.
+     Și dacă elementul html nu are o dimensiune specificată a fontului, se folosește valoarea implicită a
+     browserului de 16px. Deci aici este luată în considerare doar valoarea rădăcinii și nu există nicio relație 
+     cu un element părinte.Spre deosebire de em, aici dimensiunea este relativă pentru toate declarațiile, 
+     nu numai prima.
+    ---Nu duce la un efect de amestecare -->
